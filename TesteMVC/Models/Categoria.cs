@@ -13,6 +13,6 @@ namespace TesteMVC.Models
         [Required(ErrorMessage ="O campo e Obrigatorio")]
 
         public string Descricao { get; set; }
-        public List<Produto> Produtos { get; set; }
+       
     }
 }
